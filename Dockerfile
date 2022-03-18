@@ -1,4 +1,4 @@
-FROM python:3.5
+FROM python:9.0.0-r1
 
 RUN pip install Flask==0.11.1 redis==2.10.5
 
