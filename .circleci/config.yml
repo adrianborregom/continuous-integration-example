@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: /loquesea
     docker:
-      - image: docker:17.05.0-ce-git
+      - image: 20.10.13-alpine3.15
     steps:
       - checkout
       - setup_remote_docker
